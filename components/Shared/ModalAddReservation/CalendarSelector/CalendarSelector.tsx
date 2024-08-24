@@ -38,8 +38,7 @@ export function CalendarSelector(props: CalendarSelectorProps) {
                 to: newTo
             });
         }
-    }, [fromTime, toTime, date]);
-    
+    }, [fromTime, toTime, date, setDateSelected]);
 
     const calculateHoursBetween = (from: Date, to: Date): number => {
         const oneHour = 60 * 60 * 1000; // Milisegundos en una hora
@@ -109,4 +108,4 @@ export function CalendarSelector(props: CalendarSelectorProps) {
             </Popover>
         </div>
     );
-};
+}

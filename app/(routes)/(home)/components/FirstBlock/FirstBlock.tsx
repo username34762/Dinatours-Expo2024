@@ -15,7 +15,7 @@ export default function FirstBlock() {
           </span>
         </h1>
         <p className="text-base md:text-lg lg:text-xl mt-4 lg:mt-6 max-w-md lg:max-w-lg">
-         El Salvador is more than just beaches. It's a country full of hidden treasures waiting 
+         El Salvador is more than just beaches. It`s a country full of hidden treasures waiting 
          to be explored. Discover unique places where nature and culture meet. Start your journey and see the real El Salvador
         </p>
       </Reveal>
