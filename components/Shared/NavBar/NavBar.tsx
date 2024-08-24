@@ -27,7 +27,7 @@ export function NavBar(){
                 ):(
                     <Link href="/sign-in" className="flex gap-x-3">
                         <Button>
-                            Sign In 
+                            Sign In
                             <User className="ml-2 w-4 h-4"/>
                         </Button>
                     </Link>
